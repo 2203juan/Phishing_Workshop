@@ -1,0 +1,36 @@
+img.resize {
+    width:1150px;
+    height:600px;
+  }
+
+#content_div_one_photo {
+    width:1150px;
+    height:600px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+    background-color: black;
+}
+
+.card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 240px;             /* posicionada en la esquina inferior derecha */
+    right: 5rem;
+    left: 5rem;
+    color: white;
+
+}
+
+
+img.opac{
+    opacity: 0.4;
+}
+
+img.alg{
+    vertical-align: top;
+}
+
